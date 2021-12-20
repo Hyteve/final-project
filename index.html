@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <link href="index.CSS", rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <span>Steve's Gallery</span>
+                <a href="index.html" aria-label="Home">Home</a>
+                <a href="day.html" aria-label="Day">Day</a>
+                <a href="night.html" aria-label="Night">Night</a>
+                <a href="food.html" aria-label="Food">Food</a>
+            </nav>    
+        </header>
+        <main>
+            <div>
+                <section class="grid1">
+                    <div class="video a">
+                        <video autoplay muted loop id="myVideo">
+                            <source src="index/video.mp4" type="video/mp4">
+                        </video>
+                        <div class="content">
+                            <h1>Welcome! </h1>
+                            <p>Here, you can enjoy the collection of photography from a non-expert student, about his life in New York</p>
+                            <a id="button">Pause</a>
+                        </div>
+                    </div>
+                    <div class="box b">
+                        <a href="day.html", class="imgLink">
+                            <img class="img1" 
+                            srcset="index/1.jpeg 600w,
+                            index/1_higher_res.jpeg 1280w"
+                            sizes="(max-width: 600px) 600px,1280px"
+                            src="index/1_higher_res.jpeg" alt="1"/>
+                        </a>
+                        <h2>Day</h2>
+                    </div>
+                    <div class="box c">
+                        <a href="night.html", class="imgLink">
+                            <img class="img1" 
+                            srcset="index/2.jpeg 600w,
+                            index/2_higher_res.jpeg 1280w"
+                            sizes="(max-width: 600px) 600px,1280px"
+                            src="index/2_higher_res.jpeg" alt="2"/>
+                        </a>
+                        <h2>Night</h2>
+                    </div>
+                    <div class="box d">
+                        <a href="food.html", class="imgLink">
+                            <img class="img1" 
+                            srcset="index/3.jpeg 600w,
+                            index/3_higher_res.jpeg 1280w"
+                            sizes="(max-width: 600px) 600px,1280px"
+                            src="index/3_higher_res.jpeg" alt="3"/>
+                        </a>
+                        <h2>Food</h2>
+                    </div>
+                    <footer class="footer e">
+                        <div class="contact">
+                            <h2 class="name">Steve Hai</h2>
+                            <p class="attributes">Sophomore at College of Art & Sciences</p>
+                            <p class="attributes">New York University</p>
+                            <p class="attributes">hytteve@gmail.com</p>
+                        </div>
+                    </footer>
+                </section>
+
+            </div>
+        </main>
+
+        </script>
+        
+        <script src="index.js">
+
+        </script>
+    </body>
+</html>
